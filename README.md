@@ -56,7 +56,7 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 
 
 ## Results
-**All the results for RIDNET can be downloaded from GoogleDrive from [SSID](https://drive.google.com/open?id=15peD5EvQ5eQmd-YOtEZLd9_D4oQwWT9e), [RNI15](https://drive.google.com/open?id=1PqLHY6okpD8BRU5mig0wrg-Xhx3i-16C) and [DnD](https://noise.visinf.tu-darmstadt.de/submission-detail). The size of the results is 65MB** 
+**All the results for RIDNET can be downloaded from GoogleDrive from [SSID](), [RNI15]() and [DnD](). The size of the results is 65MB** 
 
 ### Quantitative Results
 <p align="center">
