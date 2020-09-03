@@ -9,11 +9,11 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 ## Contents
 1. [Introduction](#introduction)
 2. [Network](#network)
-2. [Train](#train)
-3. [Test](#test)
-4. [Results](#results)
-5. [Citation](#citation)
-6. [Acknowledgements](#acknowledgements)
+3. [Requirements](#requirements)
+4. [Test](#test)
+5. [Results](#results)
+6. [Citation](#citation)
+7. [Acknowledgements](#acknowledgements)
 
 ## Introduction
 We propose to learn a fully-convolutional network model that consists of a Chain of Identity Mapping Modules and residual on the residual architecture for image denoising.
