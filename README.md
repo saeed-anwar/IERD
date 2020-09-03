@@ -3,7 +3,6 @@ This repository is for Identity Enhanced Residual Image Denoising (IERD) introdu
 
 [Saeed Anwar](https://saeed-anwar.github.io/),  Cong Phuoc Huynh, [Fatih Porikli](www.porikli.com), "[Identity Enhanced Residual Image Denoising](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)", CVPRw, 2020
 
-The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
 
 
 ## Contents
@@ -37,8 +36,8 @@ size of the conv layer means the kernel is 1x1. The second row shows the archite
 The feature attention mechanism for selecting the essential features.
 
 
-## Train
-**Will be added later**
+## Requirements
+The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
 
 ## Test
 ### Quick start
