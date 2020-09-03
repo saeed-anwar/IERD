@@ -97,18 +97,19 @@ Few more examples from SSID dataset.
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
 ```
+@inproceedings{anwar2020IERD,
+  title={Identity Enhanced Residual Image Denoising},
+  author={Anwar, Saeed and Phuoc Huynh, Cong and Porikli, Fatih},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
+  pages={520--521},
+  year={2020}
+}
+
 @article{anwar2019ridnet,
   title={Real Image Denoising with Feature Attention},
   author={Anwar, Saeed and Barnes, Nick},
   journal={IEEE International Conference on Computer Vision (ICCV-Oral)},
   year={2019}
-}
-
-@article{Anwar2020IERD,
-  author = {Anwar, Saeed and Huynh, Cong P. and Porikli, Fatih },
-    title = {Identity Enhanced Image Denoising},
-    journal={IEEE Computer Vision and Pattern Recognition Workshops (CVPRW)},
-    year={2020}
 }
 ```
 ## Acknowledgements
