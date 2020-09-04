@@ -1,7 +1,7 @@
 # Identity Enhanced Residual Image Denoising
 This repository is for Identity Enhanced Residual Image Denoising (IERD) introduced in the following paper
 
-[Saeed Anwar](https://saeed-anwar.github.io/),  [Cong Phuoc Huynh](https://www.linkedin.com/in/cong-phuoc-huynh-61891b15/), [Fatih Porikli](http://porikli.com/), "[Identity Enhanced Residual Image Denoising](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)", CVPRw, 2020
+[Saeed Anwar](https://saeed-anwar.github.io/),  [Cong Phuoc Huynh](https://www.linkedin.com/in/cong-phuoc-huynh-61891b15/), [Fatih Porikli](http://porikli.com/), "[Identity Enhanced Residual Image Denoising](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)", IEEE Computer Vision and Pattern Recognition Workshop, CVPRw, 2020
 
 
 
