@@ -48,7 +48,7 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
     **You can use the following script to test the algorithm**
 
     ```bash
-    #RIDNET
+    #IERD
     CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_RNI15' --testpath ../LR/LRBI/ --testset RNI15
     ```
 
@@ -94,35 +94,35 @@ Sample visual examples from RNI15. Our method annihilates the noise and preserve
 ### Effect of Patch Size
 
 <p align="center">
-  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/trainingpatchsize.png">
+  <img width="300" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/trainingpatchsize.png">
 </p>
 
 
 ### Layers vs. Dilation
 
 <p align="center">
-  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/layersvsdilation.png">
+  <img width="300" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/layersvsdilation.png">
 </p>
 
 
 ### Effect of Number of Modules
 
 <p align="center">
-  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/NumberofModules.png">
+  <img width="300" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/NumberofModules.png">
 </p>
 
 
 ### Effect of Each Component
 
 <p align="center">
-  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/CompoenentsComparison.png">
+  <img width="300" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/CompoenentsComparison.png">
 </p>
 
 
 ### Structure of Identity Module
 
 <p align="center">
-  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/identityModules.png">
+  <img width="300" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/identityModules.png">
 </p>
 
 For more information, please refer to our [paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)
