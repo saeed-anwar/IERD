@@ -56,25 +56,76 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 ## Results
 **All the results for IERD can be downloaded from GoogleDrive from [SSID](), [RNI15]() and [DnD](). The size of the results is 65MB** 
 
-### Quantitative Results
-<p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
-</p>
-The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
+### DnD Results
 
+Comparison of our method against the state-of-the-art algorithms on real images containing Gaussian noise from Darmstadt Noise Dataset (DND) benchmark for different denoising algorithms. Difference can be better viewed in magnified view.
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
-</p>
-The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
-
-For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
-
-### Visual Results
-<p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDFig.png">
 </p>
 
-A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
+Mean PSNR and SSIM of the denoising methods evaluated on the real images dataset
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDTable.png">
+</p>
+
+
+### SSID Results
+
+A few challenging examples from SSID dataset. Our method can restore true colors and remove noise.
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSID.png">
+</p>
+
+The quantitative results (in PSNR (dB)) for the SSID dataset
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSIDTable.png">
+</p>
+
+### RNI15
+
+Sample visual examples from RNI15. Our method annihilates the noise and preserves the essential details while the competing methods fail to deliver satisfactory results i.e. unable to remove noise. Best viewed on high-resolution display.
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/MoreResults.png">
+</p>
+
+## Ablation Studies
+
+### Effect of Patch Size
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/trainingpatchsize.png">
+</p>
+
+
+### Layers vs. Dilation
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/layersvsdilation.png">
+</p>
+
+
+### Effect of Number of Modules
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/NumberofModules.png">
+</p>
+
+
+### Effect of Each Component
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/CompoenentsComparison.png">
+</p>
+
+
+### Structure of Identity Module
+
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/identityModules.png">
+</p>
+
+For more information, please refer to our [paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
