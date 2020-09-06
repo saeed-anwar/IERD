@@ -30,7 +30,7 @@ Denoising results: In the first row, an image is corrupted by the Gaussian noise
 The proposed network architecture, which consists of multiple modules with similar structures. Each module is composed of a series of pre-activation-convolution layer pairs. The multiplier block negates the input block features to be summed at the end of the mapping module
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
+  <img width="700" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
 </p>
 
 
@@ -41,7 +41,7 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 ### Quick start
 1. Download the trained models for our paper and place them in '/TestCode/experiment'.
 
-    The real denoising model can be downloaded from [Google Drive](https://drive.google.com/open?id=1QxO6KFOVxaYYiwxliwngxhw_xCtInSHd) or [here](https://icedrive.net/0/e3Cb4ifYSl). The total size for all models is 5MB.
+    The real denoising model can be downloaded from [Google Drive](). The total size for all models is 5MB.
 
 2. Cd to '/TestCode/code', run the following scripts.
 
@@ -60,12 +60,12 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 
 Comparison of our method against the state-of-the-art algorithms on real images containing Gaussian noise from Darmstadt Noise Dataset (DND) benchmark for different denoising algorithms. Difference can be better viewed in magnified view.
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDFig.png">
+  <img width="800" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDFig.png">
 </p>
 
 Mean PSNR and SSIM of the denoising methods evaluated on the real images dataset
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDTable.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/DnDTable.png">
 </p>
 
 
@@ -73,12 +73,12 @@ Mean PSNR and SSIM of the denoising methods evaluated on the real images dataset
 
 A few challenging examples from SSID dataset. Our method can restore true colors and remove noise.
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSID.png">
+  <img width="800" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSID.png">
 </p>
 
 The quantitative results (in PSNR (dB)) for the SSID dataset
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSIDTable.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/SSIDTable.png">
 </p>
 
 ### RNI15
@@ -86,7 +86,7 @@ The quantitative results (in PSNR (dB)) for the SSID dataset
 Sample visual examples from RNI15. Our method annihilates the noise and preserves the essential details while the competing methods fail to deliver satisfactory results i.e. unable to remove noise. Best viewed on high-resolution display.
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/MoreResults.png">
+  <img width="800" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/MoreResults.png">
 </p>
 
 ## Ablation Studies
@@ -94,35 +94,35 @@ Sample visual examples from RNI15. Our method annihilates the noise and preserve
 ### Effect of Patch Size
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/trainingpatchsize.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/trainingpatchsize.png">
 </p>
 
 
 ### Layers vs. Dilation
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/layersvsdilation.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/layersvsdilation.png">
 </p>
 
 
 ### Effect of Number of Modules
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/NumberofModules.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/NumberofModules.png">
 </p>
 
 
 ### Effect of Each Component
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/CompoenentsComparison.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/CompoenentsComparison.png">
 </p>
 
 
 ### Structure of Identity Module
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/identityModules.png">
+  <img width="400" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/identityModules.png">
 </p>
 
 For more information, please refer to our [paper](https://openaccess.thecvf.com/content_CVPRW_2020/papers/w31/Anwar_Identity_Enhanced_Residual_Image_Denoising_CVPRW_2020_paper.pdf)
