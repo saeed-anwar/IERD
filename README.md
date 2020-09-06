@@ -21,19 +21,17 @@ Our network structure possesses three distinctive features that are important fo
 The proposed network produces remarkably higher numerical accuracy and better visual image quality than the classical state-of-the-art and CNN algorithms when being evaluated on the three conventional benchmark and three real-world datasets
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/Front.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Main.png">
 </p>
-Sample results on a real noisy face image from RNI15 dataset.
+
+Denoising results: In the first row, an image is corrupted by the Gaussian noise with σ = 50 from the BSD68 dataset. In the second row, a sample image from the RNI15 real noisy dataset. Our results have the best PSNR score for synthetic images, and unlike other methods, it does not have over-smoothing or over-contrasting artifacts. 
 
 ## Network
-![Network](/Figs/Net.PNG)
-The architecture of the proposed network. Different green colors of the conv layers denote different dilations while the smaller
-size of the conv layer means the kernel is 1x1. The second row shows the architecture of each EAM.
+The proposed network architecture, which consists of multiple modules with similar structures. Each module is composed of a series of pre-activation-convolution layer pairs. The multiplier block negates the input block features to be summed at the end of the mapping module
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/FeatureAtt.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
 </p>
-The feature attention mechanism for selecting the essential features.
 
 
 ## Requirements
@@ -56,42 +54,27 @@ The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16
 
 
 ## Results
-**All the results for RIDNET can be downloaded from GoogleDrive from [SSID](), [RNI15]() and [DnD](). The size of the results is 65MB** 
+**All the results for IERD can be downloaded from GoogleDrive from [SSID](), [RNI15]() and [DnD](). The size of the results is 65MB** 
 
 ### Quantitative Results
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/DnDTable.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
 </p>
 The performance of state-of-the-art algorithms on widely used publicly available DnD dataset in terms of PSNR (in dB) and SSIM. The best results are highlighted in bold.
 
 <p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSIDTable.PNG">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
 </p>
 The quantitative results (in PSNR (dB)) for the SSID and Nam datasets.. The best results are presented in bold.
 
 For more information, please refer to our [papar](https://arxiv.org/abs/1904.07396)
 
 ### Visual Results
-![Visual_PSNR_DnD1](/Figs/DnD.PNG)
+<p align="center">
+  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Network.png">
+</p>
+
 A real noisy example from DND dataset for comparison of our method against the state-of-the-art algorithms.
-
-![Visual_PSNR_DnD2](/Figs/DnD2.PNG)
-![Visual_PSNR_Dnd3](/Figs/DnD3.PNG)
-Comparison on more samples from DnD. The sharpness of the edges on the objects and textures restored by our method is the best.
-
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/RNI15.PNG">
-</p>
-A real high noise example from RNI15 dataset. Our method is able to remove the noise in textured and smooth areas without introducing artifacts
-
-<p align="center">
-  <img width="500" src="https://github.com/saeed-anwar/RIDNet/blob/master/Figs/SSID.PNG">
-</p>
-A challenging example from SSID dataset. Our method can remove noise and restore true colors
-
-![Visual_PSNR_SSIM_BI](/Figs/SSID3.PNG)
-![Visual_PSNR_SSIM_BI](/Figs/SSID2.PNG)
-Few more examples from SSID dataset.
 
 ## Citation
 If you find the code helpful in your resarch or work, please cite the following papers.
