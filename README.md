@@ -21,7 +21,7 @@ Our network structure possesses three distinctive features that are important fo
 The proposed network produces remarkably higher numerical accuracy and better visual image quality than the classical state-of-the-art and CNN algorithms when being evaluated on the three conventional benchmark and three real-world datasets
 
 <p align="center">
-  <img width="600" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Main.png">
+  <img width="500" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/Main.png">
 </p>
 
 Denoising results: In the first row, an image is corrupted by the Gaussian noise with σ = 50 from the BSD68 dataset. In the second row, a sample image from the RNI15 real noisy dataset. Our results have the best PSNR score for synthetic images, and unlike other methods, it does not have over-smoothing or over-contrasting artifacts. 
@@ -86,7 +86,7 @@ The quantitative results (in PSNR (dB)) for the SSID dataset
 Sample visual examples from RNI15. Our method annihilates the noise and preserves the essential details while the competing methods fail to deliver satisfactory results i.e. unable to remove noise. Best viewed on high-resolution display.
 
 <p align="center">
-  <img width="800" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/MoreResults.png">
+  <img width="700" src="https://github.com/saeed-anwar/IERD/blob/master/FIgs/MoreResults.png">
 </p>
 
 ## Ablation Studies
