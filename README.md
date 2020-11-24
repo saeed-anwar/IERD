@@ -63,7 +63,7 @@ CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IE
 
 
 ## Results
-**All the results for IERD can be downloaded from GoogleDrive from [SSID](https://drive.google.com/file/d/1em70fbrVCggxdv1vi0dLqriAR_f2lPjc/view?usp=sharing) (118MB), [RNI15](https://drive.google.com/file/d/1NUmFpS7Zl4f70OZJVd96t35wSGSyvfMS/view?usp=sharing) (9MB) and [DnD](https://drive.google.com/file/d/1IfTi6ZImNsrzqC6oFhgFF8Z9QKvZeAfE/view?usp=sharing) (2.3GB). ** 
+**All the results for IERD can be downloaded from GoogleDrive from**  [SSID](https://drive.google.com/file/d/1em70fbrVCggxdv1vi0dLqriAR_f2lPjc/view?usp=sharing) (118MB), [RNI15](https://drive.google.com/file/d/1NUmFpS7Zl4f70OZJVd96t35wSGSyvfMS/view?usp=sharing) (9MB) and [DnD](https://drive.google.com/file/d/1IfTi6ZImNsrzqC6oFhgFF8Z9QKvZeAfE/view?usp=sharing) (2.3GB). 
 
 ### DnD Results
 
