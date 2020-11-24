@@ -49,19 +49,19 @@ The proposed network architecture, which consists of multiple modules with simil
 ### Quick start
 1. Download the trained models and code of our paper
 
-    The real denoising model can be downloaded from [Google Drive](). The total size for all models is 5MB.
+    The real denoising model can be downloaded from [Google Drive](https://drive.google.com/file/d/1DV9-OgvYoR4ELQZY-R7vZiX5nTf-NZtX/view?usp=sharing). The total size for all models is **3.1MB.**
 
-2. cd to '/IERDTestCode/code', run the following scripts.
+2. cd to '/IERDTestCode/code', run the following scripts and find the results in directory **IERD_Results**.
 
     **You can use the following script to test the algorithm**
 
-    ``` #Normal
-   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSID_Results' --testpath ../noisy --testset SIDD
-  ```
+``` #Normal
+CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSID_Results' --testpath ../noisy --testset SIDD
+```
 
- ``` #Ensemble
-  CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSIDPlus_Results' --testpath ../noisy --testset SIDD --self_ensemble
-  ```
+``` #Ensemble
+CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSIDPlus_Results' --testpath ../noisy --testset SIDD --self_ensemble
+```
 
 
 ## Results
