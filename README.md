@@ -35,22 +35,33 @@ The proposed network architecture, which consists of multiple modules with simil
 
 
 ## Requirements
-The model is built in PyTorch 0.4.0, PyTorch 0.4.1 and tested on Ubuntu 14.04/16.04 environment (Python3.6, CUDA9.0, cuDNN5.1). 
+- The model is built in PyTorch 0.4.0, PyTorch 0.4.1 
+- Tested on Ubuntu 14.04/16.04 environment 
+- python 3.6
+- CUDA 9.0 
+- cuDNN 5.1 
+- pytorch=0.4.1
+- torchvision=0.2.1
+- imageio
+- pillow
 
 ## Test
 ### Quick start
-1. Download the trained models for our paper and place them in '/TestCode/experiment'.
+1. Download the trained models and code of our paper
 
     The real denoising model can be downloaded from [Google Drive](). The total size for all models is 5MB.
 
-2. Cd to '/TestCode/code', run the following scripts.
+2. cd to '/IERDTestCode/code', run the following scripts.
 
     **You can use the following script to test the algorithm**
 
-    ```bash
-    #IERD
-    CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model RIDNET --n_feats 64 --pre_train ../experiment/ridnet.pt --test_only --save_results --save 'RIDNET_RNI15' --testpath ../LR/LRBI/ --testset RNI15
-    ```
+    ``` #Normal
+   CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSID_Results' --testpath ../noisy --testset SIDD
+  ```
+
+ ``` #Ensemble
+  CUDA_VISIBLE_DEVICES=0 python main.py --data_test MyImage --noise_g 1 --model IERD --n_feats 64 --pre_train ../trained_model/IERD.pt --test_only --save_results --save 'SSIDPlus_Results' --testpath ../noisy --testset SIDD --self_ensemble
+  ```
 
 
 ## Results
