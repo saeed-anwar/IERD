@@ -44,6 +44,8 @@ The proposed network architecture, which consists of multiple modules with simil
 - torchvision=0.2.1
 - imageio
 - pillow
+- matplotlib
+- tqdm
 
 ## Test
 ### Quick start
